@@ -16,6 +16,10 @@ nav div{
     color: white;
     font-size: 20px;
 }
+#logo-click{
+    text-decoration: none;
+    color: white;
+}
 nav ul{
     display: flex;
     
@@ -175,7 +179,7 @@ main{
 /* footer css codes */
 footer{
     background-color: #5F1E69;
-    padding: 20px 0 50px 0;
+    padding: 40px 0;
     
 }
 .footer-main-div{
