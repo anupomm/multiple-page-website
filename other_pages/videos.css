@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: #1A1244;
+    justify-content: space-between;
+    padding: 10px 200px;
+    border-bottom: 4px solid #401E63;
+    /* Nav bar ta sticky korar jonno */
+    position: sticky;
+    top: 0;
+}
+nav div{
+    color: white;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 10px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s;
+    padding: 10px 20px;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* main section */
+main{
+    background-color: #2D236A;
+    padding-top: 20px;
+}
+.main-tag-div{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.videos-title{
+    display: flex;
+    justify-content: space-between;
+}
+.latest-video{
+    font-size: 25px;
+    color: #04AA6D;
+    font-weight: bold;
+}
+.page-number{
+    color: #04AA6D;
+}
+.page-number span{
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 10px;
+    border: 1px solid #8080805b;
+    cursor: pointer;
+}
+/* after videos title */
+.single-items-parent{
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 60px;
+    column-gap: 20px;
+    padding: 50px 0;
+}
+.single-items{
+    height: 250px;
+    border: 3px solid gray;
+}
+.single-items img:hover {
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+.single-items img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.single-items-text{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-top: 10px;
+}
+/* previous next page code */
+.previous-next-button-parent{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.previous-next-button-parent h3 a{
+    color: white;
+    background-color: #04AA6D;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.previous-next-button-parent h3 a:hover{
+    background-color: #03774c;
+}
+.page-numbers a:first-child{
+    background-color: #04AA6D;
+    color: white;
+}
+.page-numbers a{
+    background-color: antiquewhite;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
