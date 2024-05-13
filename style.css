@@ -8,6 +8,9 @@ nav{
     justify-content: space-between;
     padding: 10px 200px;
     border-bottom: 4px solid #401E63;
+    /* Nav bar ta sticky korar jonno */
+    position: sticky;
+    top: 0;
 }
 nav div{
     color: white;
@@ -117,8 +120,6 @@ main{
 .single-items{
     height: 250px;
     border: 3px solid gray;
-    
-    
 }
 .single-items img:hover {
     transform: scale(1.1);

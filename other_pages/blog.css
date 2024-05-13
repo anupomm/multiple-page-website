@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: #1A1244;
+    justify-content: space-between;
+    padding: 10px 200px;
+    border-bottom: 4px solid #401E63;
+    /* Nav bar ta sticky korar jonno */
+    position: sticky;
+    top: 0;
+}
+nav div{
+    color: white;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 10px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s;
+    padding: 10px 20px;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* article code */
+.blog-title h2{
+    text-align: center;
+    color: green;
+    font-size: 30px;
+    padding: 30px;
+}
+.blog-title h2 span{
+    color: red;
+}
+.blog-single-item{
+    width: 320px;
+    height: 550px;
+    box-shadow: 10px 10px 10px gray;
+}
+.blog-single-item > :nth-child(2){
+    color: red;
+    margin: 5px 0;
+
+}
+.blog-single-item img{
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-single-item h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.blog-single-item a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin: 15px 0;
+    display: inline-block;
+}
+.blog-card-parent{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
